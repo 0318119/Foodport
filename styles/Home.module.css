@@ -1,0 +1,475 @@
+
+
+#__next{
+  overflow-x: clip;
+}
+.homepage_banner{
+  background-image: url(/img/screencapture-localhost-3000-2022-01-15-00_41_04.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+#own_container{
+  display: flex;
+  justify-content: center;
+}
+.back_black_box
+{ background: #08080885;
+  height: 55px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 100%;
+} 
+.searches{
+  position: absolute;
+  top: 65.5%;
+  right: 6px ;
+}
+.searches i{
+  position: relative;
+  left: 20px;
+  size: 10px;
+  color: white;
+}
+input.location-search-input::placeholder {
+  padding-left: 36px;
+  letter-spacing: 3px;
+  color: black;
+}
+.search_box{
+  position: relative;
+  margin-top: 30%;
+}
+.search_box .text_box_home .text_span{
+  display: block;
+  color: white;
+  font-size: 40px;
+  font-family: "Birthstone",cursive;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.search_box input{
+  padding: 10px 33px;
+  width: 100%;
+  border-radius: 7px;
+  outline: none !important;
+  border: none !important;
+}
+
+.seacrh_parenthome{
+  width: 100%;
+  margin: 10px auto 0 auto;
+}
+.seacrh_parenthome h3{
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+}
+.seacrh_parenthome .search_descriptionhome{
+  background: white;
+  display: block;
+  box-shadow: 1px 5px 10px #8080805e;
+  padding: 5px 0px;
+}
+.seacrh_parenthome .search_descriptionhome li{
+  list-style: none;
+  line-height: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding: 0 10px;
+}
+.seacrh_parenthome .search_descriptionhome li:hover{
+  cursor: pointer;
+  background: #80808026;
+}
+
+#own_container ul {
+  text-align: center;
+}
+#own_container ul li {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+}
+#own_container ul li a {
+  color: #fff;
+  text-transform: capitalize;
+}
+#own_container ul li a i {
+  padding-right: 12px;
+  font-size: 20px;
+}
+.search_input{
+  display: inline-flex;
+  width: 100%;
+}
+.search_input button {
+  display: inline-flex;
+  padding: 10px 43px;
+  border: none;
+  border-radius: 0 6px 6px 0;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+}
+.search_input button > .fa-search{
+   
+  color: white;
+  font-size: 23px;
+}
+.tabs_section{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+.red_color{
+  color: red;
+}
+.restaurent_item {
+  border: 2px solid #80808075;
+  width: 350px;
+  padding: 20px;
+  border-radius: 19px;
+  margin: 10px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 7px 6px #80808059;
+}
+.item_title {
+  font-size: 18px;
+  margin-top: 23px;
+  display: block;
+  font-weight: 500;
+  text-align: left;
+}
+.restaurent_item img{
+  height: 275px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+#flex{
+  display: flex;
+  justify-content: center;
+}
+.app_section{
+  background: red;
+  color: white;
+  height: 44vh;
+  margin-top: 170px;
+}
+.color_black{
+  color: black;
+}
+.app_btn_groups{
+  width: 70%;
+  position: relative;
+  padding: 54px 0;
+}
+.app_btn_groups .app_head {
+  display: block;
+  text-align: left;
+  padding-bottom: 12px;
+  font-weight: 700;
+  font-size: 33px;
+}
+.app_btn_groups .app_para {
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 16px;
+  line-height: 30px;
+}
+#flex img{
+  display: inline-block;
+  height: 74px;
+  position: relative;
+  left: -20px;
+}
+.mobile_app img {
+  height: 580px;
+  float: right;
+  position: relative;
+  top: -121px;
+  right: 7%;
+}
+.testimonilas_section{
+  background: red;
+  padding-top: 20px;
+  padding-bottom: 57px;
+}
+.testimonilas_section .testi_head{
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 30px 0;
+  display: block;
+  margin: auto;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+.testi_box > img{
+  height: 90px;
+  object-fit: cover;
+  width: 90px;
+  border-radius: 58px;
+  border: 3px solid red;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.testimonilas_section .testi_box {
+  background: #fff;
+  padding: 20px 31px;
+  text-align: center;
+  border-radius: 16px;
+}
+.testi_box .customer_name,.cus_descrip,.testi_info{
+  display: block;
+}
+.testi_box .customer_name{
+  font-weight: 700;
+  color: black;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.color_red{
+  color: red;
+}
+.cus_descrip{
+  font-size: 14px;
+  margin-top: 19px;
+  font-weight: 500;
+}
+.testi_text{
+  font-size: 14px;
+  font-weight: 400;
+  color: black;
+  line-height: 27px;
+  margin-top: 20px;
+}
+.testi_info {
+  color: red;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+/* ============= */
+
+#Showmorebtn{
+  text-align: center;
+  
+}
+#Showmorebtn button{
+
+    width: 115px;
+    height: 35px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: black;
+    outline: none;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+}
+#Showmorebtn button:active{
+  border: none;
+}
+#Showmorebtn button:hover{
+  border: none;
+
+}
+
+@media screen and (max-width: 1355px){
+  #flex img {
+      height: 50px;
+      left: unset;
+  }
+  .app_btn_groups .app_para {
+      font-size: 14px;
+      line-height: 24px;
+  }
+}
+@media screen and (max-width: 1081px){
+  .mobile_app img {
+      height: 510px;
+      float: right;
+      position: relative;
+      top: -121px;
+  }
+  .app_btn_groups {
+      width: 70%;
+      position: relative;
+      padding: 35px 0;
+  }
+  .app_btn_groups {
+      padding: 47px 0;
+  }    
+  .app_section {
+      height: 40vh;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .searches{
+    top:76.5%;
+  }
+  .mobile_app img {
+      float: unset;
+      text-align: center;
+      display: flex;
+      margin: 81px auto;
+  }
+  .app_section {
+      height: 84vh;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .app_btn_groups .app_head{
+      font-size: 25px;
+  }
+  #flex img {
+      height: 40px;
+      left: unset;
+  }
+  .mobile_app img {
+      height: 350px;
+      right: unset;
+  }
+  .app_section {
+      height: 60vh;
+  }    
+  .app_btn_groups {
+      width: 100%;
+  }
+  .search_box{
+    margin-top: 45%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .search_input button{
+    padding: 10px 56px;
+  }
+  .searches{
+    top: 61.5%;
+  }
+  .searches{
+    right: 5px;
+  }
+  .search_box .text_box_home .text_span {
+      font-size: 30px;
+  }
+  .homepage_banner {
+      height: 550px;
+  }
+  .tabs_section {
+      font-size: 25px;
+  }
+  .tabs-container .tabs input[type=radio] + label {
+      font-size: 18px;
+  }
+  .restaurent_item {
+      width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .searches{
+    top: 125px;
+  }
+}
+@media screen and (max-width: 641px) {
+  .restaurent_item {
+      width: 350px;
+  }
+}
+@media screen and (max-width: 451px){
+  .homepage_banner {
+      height: 451px;
+  }
+  .tabs_section {
+      font-size: 18px;
+  }
+  .tabs-container .tabs input[type=radio] + label {
+      font-size: 15px;
+  }
+  #own_container ul li {
+      padding: 7px;
+  }
+}
+@media screen and (max-width:400px) {
+  .search_box .text_box_home .text_span {
+    font-size: 25px;
+    text-align: center;
+  }
+  .search_input button{
+    padding: 10px 15px;
+    position: absolute;
+    right: 1px;
+    bottom: -26px;
+  }
+  .searches i{
+    display: none;
+  }
+}
+@media screen and (max-width: 376px){
+  .search_input button {
+    padding: 10px 15px;
+    position: absolute;
+    right: 1px;
+    bottom: -42px;
+
+}
+  .search_box .text_box_home .text_span {
+      font-size: 25px;
+  }
+  .searches{
+    top: 69%;
+  }
+}
+@media screen and (max-width: 380px){
+    .app_btn_groups .app_head {
+      font-size: 18px;
+    }
+  .app_btn_groups .app_para {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .mobile_app img {
+    float: right;
+}
+}
+@media screen and (max-width: 375px)
+{.app_section {
+  height: 80vh !important;
+}}
+@media screen and (max-width: 391px)
+{.app_section {
+  height: 70vh;
+}}
+@media screen and (max-width: 394px)
+{.app_section {
+  height: 70vh;
+}}
+/* @media screen and (max-width:301px){
+  .searches{
+    top: 75.5%;
+  }
+} */
+

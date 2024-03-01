@@ -1,0 +1,100 @@
+.form-bg{
+    margin-top: 50px;
+}
+.form-horizontal{
+    background: linear-gradient(50deg,rgba(0,0,0,0.05) 49%, rgba(0,0,0,0.08) 50%);
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    padding: 30px 15px 25px;
+    border-radius: 30px 0 30px 0;
+    box-shadow: 4px 4px 0 #fff, 6px 6px 0 #e7e7e7,-4px -4px 0 #fff,-6px -6px 0 #e7e7e7;
+}
+.form-horizontal .form_box{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-horizontal .form-icon{
+    color: #fff;
+    background: linear-gradient(45deg,#000000c4 49%, red 50%);
+    font-size: 55px;
+    text-align: center;
+    line-height: 80px;
+    height: 80px;
+    width: 80px;
+    margin: 0 auto 15px;
+    border-radius: 25px;
+}
+
+.form-horizontal .title{
+    color: #333;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 0 0 30px 0;
+}
+
+.form-horizontal .form-group{
+    margin: 10px auto;
+}
+
+.form-horizontal label{ 
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.form-horizontal .form-control{
+    color: black;
+    background-color: rgba(255,255,255,0.9);
+    font-size: 16px;
+    letter-spacing: 1px;
+    height: 40px;
+    padding: 6px 15px 2px 15px;
+    box-shadow: 0 0 5px -3px #333;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.form-horizontal .form-control:focus{
+    box-shadow: 0 0 5px -1px #0097e6;
+    border:none;
+    outline: none;
+}
+
+.form-horizontal .form-control::placeholder{
+    color: rgba(0,0,0,0.3);
+    font-size: 14px;
+}
+
+.form-horizontal .btn {
+    color: #fff;
+    background-color: red;
+    font-size: 20px;
+    width: 200px;
+    padding: 5px 20px;
+    margin: 0 0 15px 0;
+    border-radius: 1px;
+    border: none;
+    border-radius: 20px;
+    display: block;
+    transition: all 0.3s;
+    margin: auto;
+}
+
+.form-horizontal .btn:hover{
+    background-color: white;
+    box-shadow: 2px 2px 5px #333;
+    color: black;
+}
+
+.text_des{
+    display: block;
+    margin: auto;
+    height: 180px !important;
+    width: 80%;
+}

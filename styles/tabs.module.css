@@ -1,0 +1,116 @@
+.tab_main{
+    margin-top: 100px;
+}
+.ant-tabs-tabpane {
+    flex: none;
+    width: 100%;
+    outline: none;
+    display: flex !important;
+    justify-content: center !important;
+    flex-wrap: wrap !important;
+}
+.content_box{
+    padding: 10px;
+    border: 2px solid #8080806b;
+    border-radius: 25px;
+    margin: 10px;
+    width: 25%;
+}
+.content_box .img_box_item{
+    height: 216px;
+    -o-object-fit: fill;
+    object-fit: cover;
+    border-radius: 20px;
+    width: 100%;
+}
+.content_text_box h5.content{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.content_text_box h5.content span.rating_resturent{
+    color: #d1d117;
+    font-size: 25px;
+    padding: 0 5px;
+}
+
+.content_text_box h5.content .btn_see_more{
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 6px;
+    transition: all .5s ease-out;
+    padding: 0px 29px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+.content_text_box h5.content .btn_see_more:hover{
+    background: red;
+    transition: all .5s ease-in;
+}
+.content_text_box h5.content .btn_see_more:hover a{
+    color: white;
+    transition: all .5s ease-in;
+}
+.content_text_box h5.content .btn_see_more a{
+    color: black;
+    font-weight: 500;
+}
+.content_text_box h5.content span{
+   font-size: 18px;
+}
+.content_text_box h5.content p{
+    white-space: nowrap;
+    width: 161px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 19px;
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+@media screen and (max-width:992px) {
+    .content_box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:700px) {
+    .content_box{
+        width: 60%;
+    }
+}
+@media screen and (max-width:501px) {
+    .content_box{
+        width: 80%;
+    }
+}
+@media screen and (max-width:376px) {
+    /* .content_box{
+        width: 250px;
+    } */
+    .content_box .img_box_item{
+        height: 150px;
+    }
+    .content_text_box h5.content{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .content_text_box h5.content{
+        font-size: 15px;
+     }
+}

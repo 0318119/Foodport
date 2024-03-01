@@ -1,0 +1,232 @@
+{
+
+ "resturant":[
+{
+"title":"Alex",
+"img":"img/348s.jpg",
+"timedur":"until 11:30 AM tomorrow",
+"content1":"Proof of vaccination required",
+"content2":"Opened 7 weeks ago",
+"content3":" “We loved it! They were very attentive, and the food was delicious--super friendly staff. "
+ 
+},
+{
+    "title":"Salvadour",
+    "img":"img/ressearch2.jpg",
+    "timedur":"until 11:30 AM tomorrow",
+    "content1":"Proof of vaccination required",
+    "content2":"Opened 7 weeks ago",
+    "content3":" “We loved it! They were very attentive, and the food was delicious--super friendly staff. "
+     
+},
+{
+    "title":"Wilson",
+    "img":"img/ressearch4.jpg",
+    "timedur":"until 11:30 AM tomorrow",
+    "content1":"Proof of vaccination required",
+    "content2":"Opened 7 weeks ago",
+    "content3":" “We loved it! They were very attentive, and the food was delicious--super friendly staff. "
+     
+ }
+
+
+
+],
+
+"Tesimonial":[
+    {
+        "imgtest" : "/img/test1.75f248f8.jpg",
+        "Name": "Emma Garry",
+        "Heading" : "Write a review for",
+        "ResName" : "Subway",
+        "added" : "05 Nov, 2021",
+        "Test" : "I just wanted to say that I have fallen IN LOVE with your foods. I have sacrificed good wholesome food to “treat” myself and fulfill my hunger in the past,but i have found such satisfaction with awesome foods products"
+    },
+    {
+        "imgtest" : "/img/test2.2c868001.png",
+        "Name": "Alex Garry",
+        "Heading" : "Write a review for",
+        "ResName" : "Subway",
+        "added" : "05 Nov, 2021",
+        "Test" : "I just wanted to say that I have fallen IN LOVE with your foods. I have sacrificed good wholesome food to “treat” myself and fulfill my hunger in the past,but i have found such satisfaction with awesome foods products"
+    },
+    {
+        "imgtest" : "/img/test3.9e081fd8.jpg",
+        "Name": "David Garry",
+        "Heading" : "Write a review for",
+        "ResName" : "Subway",
+        "added" : "05 Nov, 2021",
+        "Test" : "I just wanted to say that I have fallen IN LOVE with your foods. I have sacrificed good wholesome food to “treat” myself and fulfill my hunger in the past,but i have found such satisfaction with awesome foods products"
+    }
+],
+
+"DowoalodApp" : [
+    {
+        "HeadOne" : "Download",
+        "HeadTwo" : "The App",
+        "Para" : " It's all your fingertips-- the restaurants you love. Find the right food to suit your mood, and make the first last. Go ahead download us",
+        "ImgOne" : "/img/download.43bfb366.png",
+        "ImgTwo" : "/img/download2.01a6f91b.png"
+    }
+],
+
+"foddcard" : [
+  {
+      "FoodImg" : "/img/a.jpg",
+      "CardHead" : "KFC",
+      "Rating" : "★★★★★",
+      "CardLocate" : "New York"
+  },
+  {
+    "FoodImg" : "/img/barger.jpg",
+    "CardHead" : "KFC",
+    "Rating" : "★★★★★",
+    "CardLocate" : "New York"
+},
+  {
+      "FoodImg" : "/img/istockphoto-1225035673-612x612.jpg",
+      "CardHead" : "KFC",
+      "Rating" : "★★★★★",
+      "CardLocate" : "New York"
+  } 
+],
+
+"AllResult":[
+    {
+        "title":"Sushi",
+        "img":"img/ressearch3.jpg",
+        "timedur":"until 11:30 AM tomorrow",
+        "content1":"Proof of vaccination required",
+        "content2":"Opened 7 weeks ago",
+        "content3":" “We loved it! They were very attentive, and the food was delicious--super friendly . "
+            
+    },
+    {
+        "title":"Salvadour",
+        "img":"img/ressearch2.jpg",
+        "timedur":"until 11:30 AM tomorrow",
+        "content1":"Proof of vaccination required",
+        "content2":"Opened 7 weeks ago",
+        "content3":" “We loved it! They were very attentive, and the food was delicious--super friendly . "
+         
+    }
+],
+
+"resboxbanner":[
+        { 
+           "title":"Mars & Bar American",
+           "review":"489 Reviews",
+           "bars":"$$",
+           "bars1":"Bars,",
+           "bars2":"American (New)",
+           "bars3":"Edit"
+           
+            
+        }
+],
+
+"scrollingResbox":[
+    {
+        "img":"img/carlitos-barbecue-tacqueria-catering-scaled.jpg" ,
+        "title":"Honey Sesame Chicke",
+        "photo": "1",
+        "review":"5"
+    },
+    {
+        "img":"img/348s.jpg" ,
+        "title":"Cucumber Salad",
+        "photo": "1",
+        "review":"5"
+    },
+    {
+        "img":"img/ressearch2.jpg", 
+        "title":"Honey Sesame Tofu",
+        "photo": "1",
+        "review":"5"
+    },
+    {
+        "img":"img/ressearch4.jpg",
+        "title":"Orange Chicken",
+        "photo": "1",
+        "review":"5"
+    },
+    {
+        "img":"img/carlitos-barbecue-tacqueria-catering-scaled.jpg" ,
+        "title":"Chow Mein",
+        "photo": "1",
+        "review":"5"
+    }
+
+],
+
+"contact":[
+    {
+        "link":"http://www.example.com",
+        "number":"12345678910",
+        "address":">Get Directions",
+        "addressline1":"  798 Brannan St San Francisco, CA 94103"
+    }
+],
+
+
+"location":[
+    {
+        "title":"Location & Hours",
+        "address1":"798 Brannan St",
+        "address2":"San Francisco, CA 94103",
+        "address3":"7th St & Gilbert St",
+        "address4":"Mission Bay"
+     
+    }
+],
+
+ "schedule":[
+
+     {
+         "day":"Mon",
+         "time":"11:30 AM - 10:00 PM"
+     },
+     {
+        "day":"Tue",
+        "time":"11:30 AM - 10:00 PM"
+    },
+    {
+        "day":"Wed",
+        "time":"11:30 AM - 10:00 PM"
+    },{
+        "day":"Thu",
+        "time":"11:30 AM - 10:00 PM"
+    },{
+        "day":"Fri",
+        "time":"11:30 AM - 10:00 PM"
+    },{
+        "day":"Sat",
+        "time":"11:30 AM - 10:00 PM"
+    },
+    {
+        "day":"Sun",
+        "time":"11:30 AM - 10:00 PM"
+    }
+
+ ],
+ 
+ "Business":[
+     {     
+         
+         "title":"Abdur rehman",
+         "content":" Voted BEST Happy Hour/Best Outdoor Garden PATIO. Great Kitchen, organic homemade food."
+     }
+ ],
+
+ "ask":[
+     {
+         "title":"  Ask the Community",
+         "content":" Are bars allowed to instantly add gratuity ? For one round/ 2 shots? Per the bartenders they have too....",
+         "content1":" I never heard this. When did this happen? Usually it’s for larger events or corporate parties on drink tabs. Can you be more specific. I’d love to help. My email is david@marsbarsf.com. I’m more than happy to get to the bottom of this. ThanksDavid K., Business Owner"
+     }
+ ]
+ 
+}
+
+
+

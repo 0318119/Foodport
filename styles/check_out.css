@@ -1,0 +1,361 @@
+
+/*++ Banner CSS ++*/
+
+.checkout_banner{
+    background-image: url(/img/check-out-banner.jpg);
+    position: relative;
+    background-size: cover;
+    height: 80vh;
+}
+
+/*++ Banner CSS ++*/
+.containerrs{
+    display: flex;
+    justify-content: center;
+}
+/*++ FOOD ITEMS CHECK OUT PAGE CSS ++*/
+.main_container_form {
+    width: 35%;
+    box-shadow: 1px 1px 11px #80808085;
+    border-radius: 10px;
+}
+.items_container {
+    display: block;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin-top: 9px;
+    background-color: #8080801f;
+}
+
+.items_container::-webkit-scrollbar-track
+{
+	/* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); */
+	background-color: #F5F5F5;
+}
+
+.items_container::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.items_container::-webkit-scrollbar-thumb
+{
+	background-color: red;	
+	background-image: -webkit-linear-gradient(90deg, rgba(255, 255, 255, .2) 25%,transparent 25%,
+    transparent 50%,rgba(255, 255, 255, .2) 50%,rgba(255, 255, 255, .2) 75%,
+	transparent 75%,transparent);
+    height: 100px;
+}
+
+
+.itemsss{
+    margin: 7px 5px;
+}
+.foodport_items_checkout{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 19px #80808029;
+}
+.foodport_items_checkout:hover {
+    box-shadow: 5px 5px 13px #808080ad;
+    cursor: pointer;
+    transition: all .9s linear;
+}
+.foodport_items_checkout > img{
+    height: 67px;
+    width: 67px;
+    border-radius: 9px;
+    padding: 5px ;
+    object-fit: cover;
+    left: 5px;
+    position: relative;
+    margin: 10px;
+}
+.foodMain_checkout h4.food_checkout_title{
+    font-size: 18px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    color: black;
+    font-weight: 600;
+}
+
+.foodMain_checkout p.food_checkout_descriptionsss{
+    font-size: 15px;
+    font-family: 'Poppins';
+    letter-spacing: 1px;
+    color: black;
+}
+.foodMain_checkout{
+    display: inline-block;
+    position: relative;
+    top: 18px ;
+    left: 8px;
+    padding-left: 6px;
+}
+
+.itemss_totals > h4{
+    font: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: 'Poppins';
+}
+.itemss_totals {
+    padding: 25px 23px;
+}
+.itemss_totals .order_items_totals{
+    float: right;
+    display: block;
+}
+.itemss_borderss {
+    margin: 15px 0;
+    display: block;
+}
+
+.pricetags_checkout {
+    position: absolute;
+    right: -163px;
+    top: 9px;
+}
+/*++ FOOD ITEMS CHECK OUT PAGE CSS ++*/
+
+/*++ PAYMENT FORM ++*/
+h6.rder-head {
+    background: #efeaeaba;
+    padding: 16px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.peyment-method {
+    padding: 30px;
+}
+.peyment-method h6 {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.peyment-method ul {
+    padding: 0;
+    margin: 0;
+    border: 1px solid rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+}
+
+.peyment-method ul li {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid rgba(41, 41, 41, 0.1);
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.peyment-method ul li .form-check {
+    margin-right: 20px;
+}
+
+.peyment-method ul li h6 {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.peyment-method ul li p {
+    font-size: 12px;
+    line-height: 18px;
+    color: gray;
+}
+
+.peyment-method ul li img {
+    float: right;
+}
+
+.peyment-method ul li .details {
+    flex: auto;
+}
+.form-check .form-check-input {
+    width: 20px;
+    height: 28px;
+    margin-top: 0px;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgba(41, 41, 41, 0.1) !important; 
+    border: none !important;
+}
+.form-check-input[type=radio]{
+    border-radius: 50%;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+.orderBtn{
+    width: 100%;
+    padding: 13px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    background: rgb(255, 44, 44);
+    color: white;
+    letter-spacing: 2px;
+    position: relative;
+    top: 12px;
+}
+.peyment-method .single-input-wrap input {
+    border: none;
+    padding: 13px 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    color: #5f5f5f;
+    border-radius: 50px;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    position: relative;
+    background: #FAF7F2;
+    border-radius: 10px;
+}
+
+.peyment-method label {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+    position: relative;
+}
+/*++ PAYMENT FORM ++*/
+
+/*++ PAYMENTS SYSTEM ++*/
+.bill-payment-wrap{
+    width: 40%;
+    margin-left: 69px;
+    box-shadow: 1px 1px 11px #80808085;
+    border-radius: 10px;
+    height: 75vh;
+}
+.billing-system-head{
+    background: #efeaeaba;
+    padding: 16px;
+    border-radius: 10px 10px 0px 0px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.default-form-wrap label {
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.bill-payment-wrap .default-form-wrap {
+    background: #fff;
+    padding: 44px 23px;
+    border-radius: 0 0 12px 12px;
+}
+
+.default-form-wrap {
+    margin-bottom: 30px;
+}
+
+.default-form-wrap.style-2 .single-textarea-wrap textarea, .default-form-wrap.style-2 .single-input-wrap input {
+    background: #FAF7F2;
+}
+
+.default-form-wrap .single-input-wrap input {
+    border-radius: 6px;
+}
+
+.single-input-wrap input {
+    border: none;
+    padding: 13px 10px;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    color: #5f5f5f;
+    border-radius: 50px;
+    -webkit-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+    position: relative;
+}
+/*++ PAYMENTS SYSTEM ++*/
+@media screen and (max-width:1096px){
+    .bill-payment-wrap {
+        width: 43%;
+        margin-left: 38px;
+        height: 80vh;
+    }
+    .main_container_form {
+        width: 45%;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    .containerrs{
+        display: unset;
+    }
+    .main_container_form {
+        width: 67%;
+        margin: 28px auto;
+    }
+    .bill-payment-wrap {
+        width: 67%;
+        margin: 28px auto;
+    }
+    .foodport_items_checkout{
+        display: flex;
+        flex-direction: row;
+    }
+    .pricetags_checkout {
+        position: unset;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:768px){
+.bill-payment-wrap{
+    height: 111vh;
+}
+.containerrs.mt-5 > div.bill-payment-wrap > form > div > div:nth-child(2) > label {
+    margin-top: 15px;
+}
+.foodMain_checkout h4.food_checkout_title {
+    font-size: 15px;
+}
+.foodMain_checkout p.food_checkout_descriptionsss{
+    font-weight: 400;
+}
+.pricetags_checkout {
+    font-size: 16px;
+}
+.main_container_form {
+    width: 90%;
+}
+.bill-payment-wrap {
+    width: 90%;
+}
+.default-form-wrap label {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width:580px){
+    .main_container_form {
+        width: 95%;
+    }
+    .bill-payment-wrap {
+        width: 95%;
+    }
+    
+}

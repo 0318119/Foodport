@@ -1,0 +1,49 @@
+#main_bg_color{
+    background-image: url(../public/img/main_login_bg.jpg);
+    /* background: red; */
+    height: 100vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.main_login_box{
+    background-color: white;
+    padding: 55px 25px;
+    border-radius: 14px;
+    border: 4px solid wheat;
+}
+
+.main_login_box .inner_login_box .box_logo > img{
+    height: 60px;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.main_btn_box button{
+    width: 100%;
+    height: 48px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 13px;
+    outline: none;
+    padding: 3px 10px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.main_btn_box .user_login{
+    margin-top: 85px;
+}
+
+.main_btn_box .owner_login{
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width:992px) {
+    .left_img_box{
+        display: none;
+    }
+}

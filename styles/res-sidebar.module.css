@@ -1,0 +1,168 @@
+/* ========= */
+
+.scd_nav{
+    z-index: 99;
+    background: white;
+    box-shadow: -2px 6px 10px grey;
+  }
+  .scd_nav .scd_wrapper{
+    position: relative;
+    width: 95%;
+    padding: 0px 30px;
+    height: 70px;
+    line-height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .scd_wrapper .scd_logo a{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .scd_nav .sidebar > img{
+    height: 60px;
+    position: relative;
+    /* margin-top: 26px !important; */
+    margin: auto;
+    display: block;
+  }
+  .scd_wrapper .scd_navlinks{
+    display: inline-flex;
+  }
+  .scd_navlinks li{
+    list-style: none;
+  }
+  .scd_navlinks li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+  }
+  .scd_navlinks li a:hover{
+    color: #0a75cf;
+  }
+  .scd_navlinks .scd_mobile-item{
+    display: none;
+  }
+  .scd_wrapper .scd_btn{
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  .scd_wrapper .scd_close_btns{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    color: black;
+    font-size: 30px;
+  }
+
+  .scd_wrapper .scd_menubtn{
+    position: absolute;
+    left: 0;
+  }
+  .scd_nav input{
+    display: none;
+  }
+  .scd_wrapper .scd_navlinks{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    max-width: 350px;
+    top: 71px;
+    left: -100%;
+    background: white;
+    display: block;
+    padding: 50px 10px;
+    line-height: 50px;
+    overflow-y: auto;
+    box-shadow: 0px 15px 15px rgb(0 0 0);
+    transition: all 1.5s ease;
+    z-index: 99;
+  }
+
+    /* custom scroll bar */
+    .scd_navlinks::-webkit-scrollbar {
+        width: 10px;
+      }
+      .scd_navlinks::-webkit-scrollbar-track {
+        background: #242526;
+      }
+      .scd_navlinks::-webkit-scrollbar-thumb {
+        background: #3A3B3C;
+      }
+      .scd_menu_btn:checked ~ .scd_navlinks{
+        left: -3%;
+        transition: all .4s ease;
+      }
+      .scd_menu_btn:checked .scd_menubtn{
+        display: none;
+      }
+      .scd_close_btn:checked .scd_menubtn{
+        display: block;
+      }
+      .scd_navlinks li{
+        margin: 15px 10px;
+        border: 1px solid white;
+      }
+      .scd_navlinks li a{
+        padding: 0 20px;
+        display: block;
+        font-size: 20px;
+        color: black;
+        font-weight: 300;
+        letter-spacing: 2px;
+      }
+      .scd_navlinks .scd_drop-menu{
+        position: static;
+        opacity: 1;
+        top: 65px;
+        visibility: visible;
+        padding-left: 20px;
+        width: 100%;
+        max-height: 0px;
+        overflow: hidden;
+        box-shadow: none;
+        transition: all 0.3s ease;
+      }
+      .scd_wrapper li a i{
+        color: #0a75cf;
+        font-size: 17px;
+        padding: 0 10px;
+        border-right: 1px solid gray;
+        position: relative;
+        left: -4%;
+      }
+      .scd_wrapper li a:hover i{
+        transition: all .5s ease-in-out;
+        padding: 11px;
+        box-shadow: 1px -1px 12px;
+        border-radius: 12px;
+      }
+  @media screen and (max-width:500px){
+    .scd_logoasheader img{
+      height: 40px;
+    }
+    .scd_nav .scd_wrapper {
+      width: 100%;
+  }
+  }
+  @media screen and (max-width:568px){
+    .scd_wrapper .scd_menubtn{
+      position: absolute;
+      left: 30px;
+    }
+    .scd_nav .sidebar > img{
+      height: 50px;
+      margin-left: 50px;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+.banner-about{
+    background-image: url(/img/bannerabout.jpg);
+    width: 100%;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 72px;
+}
+.banner-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    z-index: 1000px;
+    position: relative;
+    /* z-index: 99999; */
+    letter-spacing: 4px;
+    line-height: 30px;
+}
+.about-content{
+ 
+    width: 750px;
+    margin: 4px;
+    position: relative;
+    left: 270px;
+     
+}
+.about-content li{
+    list-style: none;
+}

@@ -1,0 +1,69 @@
+#margin{
+    margin-top: 15px;
+}
+#flex_item{
+    display: flex;
+    justify-content: center;
+}
+#flex_item .card{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+}
+.between_br{
+    border: 1px solid #8080803b;
+}
+#flex_item .img{
+    width: 100%;
+    height: 266px;
+    padding: 15px;
+    object-fit: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    border-radius: 25px;
+}
+
+#flex_item .img h2{
+    padding: 7px 12px;
+    color: rgb(228,228,228);
+    background-color: #1a1042d2;
+    border-radius: 0 20px 0 0;
+}
+
+#flex_item .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 1px 0 30px;
+}
+.orders{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-weight: 500;
+}
+#flex_item .content p{
+    width: 93%;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+#flex_item .content p:nth-child(1){
+    font-weight: 600;
+}
+#flex_item .content p:nth-child(5){
+    font-weight: 500;
+}
+.content .icons{
+    margin: 15px 0;
+}
+.content .icons span{
+    display: block;
+    padding-top: 17px;
+    color: gray;
+}

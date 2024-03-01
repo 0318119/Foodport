@@ -1,0 +1,99 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  
+  margin-right: 177px !important;
+  
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+svg {
+  margin-left: -30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.headone{
+  color: red;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: black !important;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.ant-tabs-tab:hover {
+  color: red !important;
+}
+/* .ant-tabs-tabpane {
+  margin: 55px 0 !important;
+} */
+.ant-tabs-tab {
+  font-size: 22px !important;
+  /* background-color: rgb(213 208 208 / 34%) !important; */
+  border-radius: 15px;
+  padding: 12px 10px !important;
+}
+@media screen and (max-width:400px){
+  .ant-tabs-tab {
+    font-size: 18px !important;
+  }
+}
+.flexis{
+  display: flex !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+}
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.orders{
+  margin-top: 100px;
+}
+.ant-layout-sider-children {
+  height: 73vh !important;
+}
+
+.ant-layout-sider {
+  background: #D6071B !important;
+}
+.ant-menu.ant-menu-dark, .ant-menu-dark .ant-menu-sub, .ant-menu.ant-menu-dark .ant-menu-sub {
+  color: black !important;
+  background: #D6071B !important;
+}
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a, .ant-menu-dark .ant-menu-item > span > a {
+  color: white !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: red !important;
+}
+logo{
+  cursor: pointer;
+}
